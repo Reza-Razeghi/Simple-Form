@@ -1,0 +1,69 @@
+@font-face {
+  font-family: "Vazir-Regular";
+  src: url("/assets/font/Vazir-Regular.woff2") format(woff2);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Vazir-Regular";
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #00bb8c;
+}
+form {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px 28px;
+  width: 400px;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  border: 1px solid #ded9ee;
+  padding: 16px;
+  border-radius: 8px;
+  color: black;
+  display: block;
+  transition: 180ms ease-in;
+}
+
+input::placeholder {
+  color: grey;
+  font-weight: 300;
+}
+
+input:focus {
+  border-color: #89888b;
+}
+
+button[type="submit"] {
+  background-color: #2ed573;
+  color: white;
+  padding: 12px;
+  border-radius: 8px;
+  display: block;
+  cursor: pointer;
+  width: 100%;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 95px;
+  height: 95px;
+}

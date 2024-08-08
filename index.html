@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/app.css" />
+    <link rel="icon" href="./assets/Images/favicon-native-american-chief.png" />
+    <title>form</title>
+  </head>
+  <body>
+    <form action="">
+      <img
+        src="/assets/Images/green-high-resolution-logo-transparent.png"
+        alt="logo"
+      /><br />
+      <div>
+        <input
+          type="text"
+          placeholder="نام مستعار"
+          name="username"
+          autofocus
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <input type="email" placeholder="ایمیل" name="email" required />
+      </div>
+      <br />
+      <div>
+        <input
+          type="password"
+          placeholder="رمز عبور"
+          name="password"
+          id="#"
+          maxlength="8"
+          required
+        />
+      </div>
+      <br />
+      <div>
+        <input
+          type="password"
+          placeholder="تکرار رمز عبور"
+          name="password_confirm"
+          maxlength="8"
+          required
+        />
+      </div>
+      <br />
+      <div class="checkbox">
+        <input type="checkbox" name="accept_roles" id="accept" required />
+        <label for="accept"
+          >شرایط و قوانین سایت <a href="#" target="_blank">گرین لرن</a> را
+          میپذیرم</label
+        >
+      </div>
+      <br />
+      <div><button type="submit">ثبت نام</button></div>
+    </form>
+  </body>
+</html>
